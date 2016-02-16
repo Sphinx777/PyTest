@@ -1,0 +1,5 @@
+/*!CK:242964283!*//*1442912573,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["XOgYL"]); }
+
+__d('ChatSidebarSheetChatShutdownMsg.react',['ChannelConstants','ReactComponentWithPureRenderMixin','React','fbt'],function a(b,c,d,e,f,g,h,i,j,k){'use strict';if(c.__markCompiled)c.__markCompiled();var l=j.PropTypes,m=j.createClass({displayName:'ChatSidebarSheetChatShutdownMsg',mixins:[i],propTypes:{hint:l.string},render:function(){var n=this.props.hint;switch(n){case h.HINT_AUTH:return (j.createElement('div',null,k._("\u767b\u5165\u5df2\u903e\u6642\uff0c\u8acb\u91cd\u65b0\u767b\u5165\u3002")));case h.HINT_MAINT:return (j.createElement('div',null,k._("Facebook {Chat}\u76ee\u524d\u70ba\u96e2\u7dda\u7dad\u4fee\u4e2d\u3002",[k.param('Chat',k._("\u804a\u5929\u5ba4"))])));case h.HINT_CONN:return (j.createElement('div',null,k._("Facebook {Chat}\u76ee\u524d\u7121\u6cd5\u4f7f\u7528\u3002",[k.param('Chat',k._("\u804a\u5929\u5ba4"))])));default:return (j.createElement('div',null,k._("Facebook {Chat}\u76ee\u524d\u7121\u6cd5\u4f7f\u7528\u3002",[k.param('Chat',k._("\u804a\u5929\u5ba4"))])));}}});f.exports=m;},null);
